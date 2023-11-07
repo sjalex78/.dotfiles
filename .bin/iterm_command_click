@@ -79,7 +79,7 @@ module Launcher
     if number.empty?
       system "/usr/local/bin/code  -g #{path}"
     else
-      system "/opt/local/bin/code -g #{path}:#{number}"
+      system "/usr/local/bin/code -g #{path}:#{number}"
     end
   end
 
